@@ -73,8 +73,8 @@ fun MusicPlayerScreen(modifier: Modifier = Modifier) {
                 // using system default icons for media buttons
                 Button(onClick = {}) {
                     Icon(
-                        painter = painterResource(id = android.R.drawable.ic_media_previous),
-                        contentDescription = "Play Previous"
+                        painter = painterResource(id = android.R.drawable.ic_media_pause),
+                        contentDescription = "Pause"
                     )
                 }
 
